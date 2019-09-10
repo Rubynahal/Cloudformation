@@ -1,0 +1,220 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    018dcb41-8030-4540-b755-97d176ff90e5:
+      size:
+        width: 350
+        height: 270
+      position:
+        x: 80
+        'y': 110
+      z: 0
+      embeds:
+        - 8b5c9339-c555-462e-b770-f28d7583bf04
+        - 3b83dea9-85b5-4c90-bf6b-eac898cebcd7
+        - 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+    3ec99da6-6f9d-42a6-985a-d7ca80824dcc:
+      size:
+        width: 170
+        height: 140
+      position:
+        x: 87
+        'y': 158
+      z: 1
+      parent: 018dcb41-8030-4540-b755-97d176ff90e5
+      embeds:
+        - 5932fc15-306a-45ef-928e-78bd95c0f6a8
+      iscontainedinside:
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+    5932fc15-306a-45ef-928e-78bd95c0f6a8:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 160
+        'y': 190
+      z: 2
+      parent: 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+      embeds: []
+      iscontainedinside:
+        - 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+        - 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+        - 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+      dependson:
+        - d877f34e-84b2-4232-88d7-8bdaf8575f2c
+        - 3b83dea9-85b5-4c90-bf6b-eac898cebcd7
+    3b83dea9-85b5-4c90-bf6b-eac898cebcd7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 300
+        'y': 280
+      z: 1
+      parent: 018dcb41-8030-4540-b755-97d176ff90e5
+      embeds: []
+      iscontainedinside:
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+    8b5c9339-c555-462e-b770-f28d7583bf04:
+      size:
+        width: 113
+        height: 120
+      position:
+        x: 290
+        'y': 140
+      z: 1
+      parent: 018dcb41-8030-4540-b755-97d176ff90e5
+      embeds:
+        - d877f34e-84b2-4232-88d7-8bdaf8575f2c
+      iscontainedinside:
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+        - 018dcb41-8030-4540-b755-97d176ff90e5
+      dependson:
+        - 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+    d877f34e-84b2-4232-88d7-8bdaf8575f2c:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 314
+        'y': 173
+      z: 2
+      parent: 8b5c9339-c555-462e-b770-f28d7583bf04
+      embeds: []
+      isassociatedwith:
+        - 330f40a4-97eb-4668-8a65-6fa4f0677e9e
+      iscontainedinside:
+        - 8b5c9339-c555-462e-b770-f28d7583bf04
+        - 8b5c9339-c555-462e-b770-f28d7583bf04
+    330f40a4-97eb-4668-8a65-6fa4f0677e9e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 536
+        'y': 203
+      z: 0
+      embeds: []
+    e75971cf-4698-47d7-8dc3-6fa9448c811b:
+      source:
+        id: 330f40a4-97eb-4668-8a65-6fa4f0677e9e
+      target:
+        id: 018dcb41-8030-4540-b755-97d176ff90e5
+      z: 3
+    0b09a53e-9c48-4858-85ab-b5da9da68085:
+      source:
+        id: d877f34e-84b2-4232-88d7-8bdaf8575f2c
+      target:
+        id: 330f40a4-97eb-4668-8a65-6fa4f0677e9e
+      z: 4
+    b7bfac14-3bf1-49ee-b6ee-b37c994db19c:
+      source:
+        id: d877f34e-84b2-4232-88d7-8bdaf8575f2c
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(7) circle:nth-child(1)     '
+        port: 'AWS::ContainedInsideLink-AWS::EC2::RouteTable-RouteTableId'
+      target:
+        id: 8b5c9339-c555-462e-b770-f28d7583bf04
+      z: 6
+    238d87da-5576-4510-b895-1c3f97782941:
+      source:
+        id: 5932fc15-306a-45ef-928e-78bd95c0f6a8
+      target:
+        id: d877f34e-84b2-4232-88d7-8bdaf8575f2c
+      z: 5
+    4677c6c3-0974-4f15-b9a9-48f897842dde:
+      source:
+        id: 3b83dea9-85b5-4c90-bf6b-eac898cebcd7
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(5) circle:nth-child(1)     '
+        port: 'AWS::ContainedInsideLink-AWS::EC2::VPC-VpcId'
+      target:
+        id: 018dcb41-8030-4540-b755-97d176ff90e5
+      z: 7
+    d5af0595-f26e-4592-ad93-be3a301819d7:
+      source:
+        id: 8b5c9339-c555-462e-b770-f28d7583bf04
+      target:
+        id: 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+      z: 6
+    5bc747ee-113f-4991-9be0-ec8cc3625a94:
+      source:
+        id: 8b5c9339-c555-462e-b770-f28d7583bf04
+        selector: 'g:nth-child(1) g:nth-child(5) g:nth-child(4) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+      z: 8
+    25365b3e-c2d7-4f29-b1c0-a8e8f347a4fa:
+      source:
+        id: 5932fc15-306a-45ef-928e-78bd95c0f6a8
+      target:
+        id: 3b83dea9-85b5-4c90-bf6b-eac898cebcd7
+      z: 7
+Resources:
+  WordpressVpc:
+    Type: 'AWS::EC2::VPC'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 018dcb41-8030-4540-b755-97d176ff90e5
+  publicsubnet:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      VpcId: !Ref WordpressVpc
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3ec99da6-6f9d-42a6-985a-d7ca80824dcc
+  WebServer:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      NetworkInterfaces:
+        - SubnetId: !Ref publicsubnet
+        - SubnetId: !Ref publicsubnet
+        - SubnetId: !Ref publicsubnet
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 5932fc15-306a-45ef-928e-78bd95c0f6a8
+    DependsOn:
+      - WebserverRoute
+      - WebServerSecurityGroup
+  WebServerSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      VpcId: !Ref WordpressVpc
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 3b83dea9-85b5-4c90-bf6b-eac898cebcd7
+  PublicRouteTable:
+    Type: 'AWS::EC2::RouteTable'
+    Properties:
+      VpcId: !Ref WordpressVpc
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 8b5c9339-c555-462e-b770-f28d7583bf04
+    DependsOn:
+      - publicsubnet
+  WebserverRoute:
+    Type: 'AWS::EC2::Route'
+    Properties:
+      RouteTableId: !Ref PublicRouteTable
+      GatewayId: !Ref InternetGW
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: d877f34e-84b2-4232-88d7-8bdaf8575f2c
+  InternetGW:
+    Type: 'AWS::EC2::InternetGateway'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 330f40a4-97eb-4668-8a65-6fa4f0677e9e
+  EC2VPCG584RA:
+    Type: 'AWS::EC2::VPCGatewayAttachment'
+    Properties:
+      InternetGatewayId: !Ref InternetGW
+      VpcId: !Ref WordpressVpc
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: e75971cf-4698-47d7-8dc3-6fa9448c811b
