@@ -172,8 +172,6 @@ Resources:
     Properties:
       NetworkInterfaces:
         - SubnetId: !Ref publicsubnet
-        - SubnetId: !Ref publicsubnet
-        - SubnetId: !Ref publicsubnet
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 5932fc15-306a-45ef-928e-78bd95c0f6a8
